@@ -28,6 +28,7 @@ def update_task():
     return appService.update_task(request_data['task'])
 
 i have issue
+with kishore
 
 
 @app.route('/api/task/<int:id>', methods=['DELETE'])
