@@ -27,6 +27,8 @@ def update_task():
     request_data = request.get_json()
     return appService.update_task(request_data['task'])
 
+i have issue
+
 
 @app.route('/api/task/<int:id>', methods=['DELETE'])
 def delete_task(id):
